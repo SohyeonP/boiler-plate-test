@@ -5,6 +5,9 @@ const bodyParser = require('body-parser');
 const {User} = require("./models/User");
 const config = require('./config/key');
 
+
+
+
 //application/x-www-form-urlencoded  이렇게 된 데이터를 분석해서 가져오는것
 app.use(bodyParser.urlencoded({extended:true})); // client 에서 오는 정보를 서버에서 분석해서 가져오는것
 //application/json  json타입으로된 파일을 분석 해서 가져오는것 
@@ -21,7 +24,9 @@ mongoose.connect(config.mongoURI,{
 
 
 
-app.get('/',(req,res) =>res.send('Hello World! 안녕하세요!'))
+app.get('/',(req,res) =>res.send('제발 안더웠으면'))
+
+
 
 
 
