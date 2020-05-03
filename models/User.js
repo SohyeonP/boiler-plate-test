@@ -35,4 +35,4 @@ const User = mongoose.model('User',userSchema)
 //방금 만든 모델의 이름을 넣어주면 된다.
 module.exports = {User}
 
-//만든 모델을 다른 파일 에서 사용 하고 싶으니까 내보낸다.
+//만든 모델을 다른 파일 에서 사용 하고 싶으니까 내보낸다. 
